@@ -24,6 +24,7 @@ class LoginActivity : AppCompatActivity(), AuthListener {
         val viewModel = ViewModelProvider(this).get(AuthViewModel::class.java)
         binding.viewmodel = viewModel // we are going to bind our viewmodel with ui
         viewModel.authListener = this // we are going to bind activity and view model with interface
+        println("This is for second commit")
     }
 
     //Ara yüzde gerçekleşecek değişiklikler (logic) burada kontrol edilecektir.
