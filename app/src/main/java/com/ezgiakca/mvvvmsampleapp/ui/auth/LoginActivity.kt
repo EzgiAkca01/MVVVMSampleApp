@@ -27,6 +27,7 @@ class LoginActivity : AppCompatActivity(), AuthListener {
         println("This is for second commit")
         println("Change 4")
         println("This line will be merged")
+        println("Hello from your friend")
     }
 
     //Ara yüzde gerçekleşecek değişiklikler (logic) burada kontrol edilecektir.
