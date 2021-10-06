@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity(), AuthListener {
         binding.viewmodel = viewModel // we are going to bind our viewmodel with ui
         viewModel.authListener = this // we are going to bind activity and view model with interface
         println("This is for second commit")
-        println("Change 2")
+        println("Change 3")
         println("This line will be merged")
     }
 
